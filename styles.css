@@ -94,7 +94,7 @@ nav ul li:first-child a {
     position: relative;
     background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 600px;
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -232,7 +232,7 @@ nav ul li:first-child a {
 
     .header-details {
         margin-top: 20px;
-        height: 65vh;
+        height: 550px;
     }
 
     .content {
