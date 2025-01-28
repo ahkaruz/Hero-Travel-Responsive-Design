@@ -23,11 +23,11 @@
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 h3 {
@@ -35,7 +35,7 @@ h3 {
 }
 
 header {
-    padding: 30px 135px 0px;
+    padding: 30px 18vh 0px;
 }
 
 nav {
@@ -94,7 +94,7 @@ nav ul li:first-child a {
     position: relative;
     background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
-    height: 600px;
+    height: 450px;
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -188,6 +188,61 @@ nav ul li:first-child a {
     color: var(--color-primary);
 }
 
+.our-populer-tools {
+    margin-top: 80px;
+    padding: 0px 18vh;
+    display: flex;
+    gap: 50px;
+    height: 500px;
+}
+
+.our-populer-tools>* {
+    flex: 1;
+
+}
+
+.our-populer-tools .left-side {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-size-base);
+    color: var(--font-primary);
+    justify-content: space-between;
+}
+
+.our-populer-tools .left-side h2 {
+    color: var(--font-secondary);
+    font-weight: 800;
+}
+
+.our-populer-tools .left-side ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.our-populer-tools .left-side li {
+    list-style-position: inside;
+    margin-left: 20px;
+}
+
+.our-populer-tools .left-side button {
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+    border: none;
+    height: 50px;
+    padding: 0 25px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    align-self: flex-start;
+}
+
+.our-populer-tools .right-side img {
+    width: 100%;
+    height: 100%;
+}
+
+
 @media only screen and (max-width: 600px) {
     h1 {
         font-size: 1.8rem;
@@ -204,7 +259,7 @@ nav ul li:first-child a {
     header {
         padding: 20px 15px 0px;
     }
-    
+
 
     .logo img {
         width: 40px;
@@ -257,5 +312,14 @@ nav ul li:first-child a {
         width: 85%;
     }
 
+    .our-populer-tools {
+        margin-top: 20px;
+        flex-direction: column;
+        padding: 0 20px;
+        gap: 15px
+    }
 
+    .our-populer-tools .left-side {
+        gap: 15px;
+    }
 }
